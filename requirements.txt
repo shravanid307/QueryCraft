@@ -1,0 +1,7 @@
+streamlit
+pandas
+openpyxl
+langgraph
+langchain-groq
+pydantic
+scipy
