@@ -1,11 +1,11 @@
-# QueryCraft 🔎
+# QueryCraft 
 ### A Multi-Agent Natural Language Query and Statistical Analysis System
 
 QueryCraft is an AI-powered data analysis application that allows users to ask questions about structured datasets using natural language. It uses a multi-agent workflow to interpret questions, execute database queries, validate results, and perform statistical correlation analysis.
 
 Built with Python, LangGraph, Groq, SQLite, and Streamlit, QueryCraft combines natural language processing with structured query execution and statistical analysis in a single interface.
 
-## ✨ Features
+##  Features
 
 ### 1. Natural Language to SQL
 - Ask questions about structured data using natural language.
@@ -55,7 +55,7 @@ QueryCraft also supports correlation analysis for numerical variables.
 ### 6. Safety and Validation
 The project includes SQL execution safeguards, structured plan validation, error handling, and tests for query safety and workflow recovery.
 
-## 🏗️ Architecture
+##  Architecture
 
 QueryCraft supports two analysis paths.
 
@@ -107,7 +107,7 @@ Final Correlation Result
 
 The application displays the results from the selected workflow through Streamlit.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -121,7 +121,7 @@ The application displays the results from the selected workflow through Streamli
 | SciPy | Statistical calculations |
 | Streamlit | Interactive web interface |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 QueryCraft/
@@ -147,7 +147,7 @@ QueryCraft/
 
 *The structure above illustrates the main project components. Include the actual modules and tests present in your repository.*
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### Prerequisites
 
@@ -206,7 +206,7 @@ python -m streamlit run app.py
 
 Streamlit will provide a local URL where you can access the application in your browser.
 
-## 🚀 How to Use
+##  How to Use
 
 ### Ask Questions About Data
 
@@ -239,7 +239,7 @@ Example:
 
 The result includes the correlation coefficient, method, p-value, correlation strength, direction, and observation counts.
 
-## 🧪 Testing
+##  Testing
 
 The repository includes tests for components such as:
 
@@ -259,7 +259,7 @@ python -m pytest
 
 Install `pytest` separately if it is not already available in your environment.
 
-## 🔒 Limitations
+##  Limitations
 
 - Query accuracy depends on the language model, database schema, and wording of the question.
 - Correlation analysis requires suitable numerical variables and sufficient valid observations.
@@ -267,7 +267,7 @@ Install `pytest` separately if it is not already available in your environment.
 - The system's supported query operations depend on the planner and executor implementation.
 - Uploaded datasets are stored locally in SQLite databases; deployment requires appropriate data-handling and access controls.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Potential future enhancements include:
 
@@ -277,12 +277,12 @@ Potential future enhancements include:
 - Enhanced visualization of query and statistical results.
 - Expanded support for database types and analytical operations.
 
-## 👩‍💻 Author
+##  Author
 
 **Shravani Dixit**
 
 GitHub: [@shravanid307](https://github.com/shravanid307)
 
-## 📄 License
+##  License
 
 A license has not yet been specified. Add a `LICENSE` file before distributing the project under an open-source license.
