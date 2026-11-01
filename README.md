@@ -145,7 +145,7 @@ QueryCraft/
 └── test_*.py
 ```
 
-*The structure above illustrates the main project components. Include the actual modules and tests present in your repository.*
+
 
 ##  Installation and Setup
 
