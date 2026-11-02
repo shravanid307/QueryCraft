@@ -90,8 +90,6 @@ These are covered by tests (see [Testing](#testing)).
 - **Bring your own data:** upload a CSV or Excel file, preview types and missing values, and query it as its own SQLite database.
 - **Automatic schema discovery:** reads tables, columns and primary keys, uses declared foreign keys, and infers `*_id` relationships that are then verified against the data.
 
-![alt text](image-1.png)
-![alt text](image-2.png)
 ---
 
 ## Example
@@ -121,8 +119,6 @@ Sample SQL-path questions on the bundled e-commerce database:
 - *How many customers are in the database?*
 - *What are the top five products by price?*
 - *Which 5 customers placed the most orders?*
-
-![alt text](image.png)
 
 ---
 
